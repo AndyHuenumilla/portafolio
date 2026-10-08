@@ -1,0 +1,5 @@
+[
+  { "id": 1, "titulo": "React sigue siendo la librería más usada en el front-end", "fecha": "2026-09-15", "contenido": "Las encuestas de desarrolladores muestran que React continúa liderando, gracias a su ecosistema de componentes." },
+  { "id": 2, "titulo": "Vite reemplaza a Create React App", "fecha": "2026-08-30", "contenido": "El equipo de React recomienda herramientas modernas como Vite para crear proyectos nuevos." },
+  { "id": 3, "titulo": "La accesibilidad web gana importancia", "fecha": "2026-08-12", "contenido": "Cada vez más sitios incorporan etiquetas alt, contraste adecuado y navegación por teclado." }
+]

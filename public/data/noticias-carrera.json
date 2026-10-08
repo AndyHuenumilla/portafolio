@@ -1,0 +1,4 @@
+[
+  { "id": 1, "titulo": "Inicio del módulo de pruebas unitarias", "fecha": "2026-10-01", "contenido": "En Desarrollo Fullstack II comenzamos a probar componentes con Jasmine y Karma." },
+  { "id": 2, "titulo": "Primera entrega del proyecto TechStore", "fecha": "2026-09-20", "contenido": "El equipo entregó la primera versión del registro de usuarios con validaciones." }
+]

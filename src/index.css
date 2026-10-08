@@ -1,0 +1,57 @@
+/* Colores y tipografías del portafolio. Cambia los valores aquí para cambiar todo el sitio. */
+:root {
+  --nieve: #f5f7fa;
+  --noche: #0f332b;
+  --glaciar: #2563d8;
+  --glaciar-oscuro: #1b4aa8;
+  --ambar: #f2a541;
+  --texto: #1c2a3d;
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  color: var(--texto);
+  background: var(--nieve);
+  line-height: 1.6;
+}
+
+h1, h2, h3, .navbar-brand { font-family: 'Bricolage Grotesque', system-ui, sans-serif; }
+h1 { font-weight: 700; font-size: clamp(2rem, 5vw, 3.2rem); }
+h2 { font-weight: 700; margin-bottom: 1.5rem; padding-bottom: .5rem; border-bottom: 3px solid var(--ambar); display: inline-block; }
+h3 { font-size: 1.15rem; font-weight: 500; }
+
+.barra { background: var(--noche); }
+.barra .navbar-brand, .barra .nav-link { color: #fff; }
+.barra .nav-link:hover, .barra .nav-link:focus { color: var(--ambar); }
+.barra .navbar-toggler { border-color: rgba(255,255,255,.5); }
+.barra .navbar-toggler-icon { filter: invert(1); }
+
+.seccion { padding: 4rem 0; }
+.intro { background: var(--noche); color: #fff; }
+.subtitulo { color: var(--ambar); font-size: 1.2rem; font-weight: 600; }
+.foto { max-width: 240px; border: 4px solid var(--ambar); }
+
+.btn-primario { background: var(--glaciar); border-color: var(--glaciar); color: #fff; }
+.btn-primario:hover, .btn-primario:focus { background: var(--glaciar-oscuro); border-color: var(--glaciar-oscuro); color: #fff; }
+.intro .btn-primario { background: var(--ambar); border-color: var(--ambar); color: var(--noche); font-weight: 600; }
+
+.tarjeta { border: 1px solid #d9e0ea; border-radius: 10px; overflow: hidden; }
+.etiqueta { border: 1px solid #c3cdda; font-weight: 600; }
+
+.noticia { background: transparent; padding-left: 0; }
+.noticia time { color: #4a5a70; font-size: .9rem; }
+
+.formulario { max-width: 560px; }
+.exito { color: #1b6b3a; font-weight: 600; }
+
+.pie { background: var(--noche); color: #cfd8e6; padding: 1.5rem 0; text-align: center; }
+
+.salto { position: absolute; left: -999px; background: #fff; padding: .5rem 1rem; z-index: 2000; }
+.salto:focus { left: 1rem; top: 1rem; }
+
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--ambar); outline-offset: 2px;
+}
