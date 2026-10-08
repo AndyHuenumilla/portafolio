@@ -56,6 +56,14 @@ Ver [PLAN_DE_PRUEBAS.md](PLAN_DE_PRUEBAS.md). Cobertura actual: más de 95 % en 
 2. En GitHub: **Settings > Pages > Source: GitHub Actions**.
 3. Cada `git push` ejecuta las pruebas, compila y publica el sitio.
 
+## Sitio publicado
+
+https://andyhuenumilla.github.io/portafolio/
+
 ## Capturas de pantalla
 
-Agrega aquí una captura de escritorio y una de celular de tu sitio publicado.
+### Escritorio
+![Vista de escritorio del portafolio](public/img/capturas/escritorio.png)
+
+### Celular
+![Vista de celular del portafolio](public/img/capturas/celular.png)
