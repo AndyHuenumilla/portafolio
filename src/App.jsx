@@ -23,7 +23,13 @@ function App() {
         <Proyectos />
         <SeccionNoticias id="noticias-tecnologia" titulo="Noticias de tecnología" archivo="noticias-tecnologia" />
         <SeccionNoticias id="noticias-carrera" titulo="Noticias de la carrera" archivo="noticias-carrera" />
-        <ContactoForm onEnviar={(datos) => console.log('Mensaje recibido:', datos)} />
+        <ContactoForm
+          onEnviar={({ nombre, email, mensaje }) => {
+            const asunto = encodeURIComponent(`Mensaje de ${nombre} desde tu portafolio`);
+            const cuerpo = encodeURIComponent(`${mensaje}\n\nResponder a: ${email}`);
+            window.location.href = `mailto:an.huenumilla@duocuc.cl?subject=${asunto}&body=${cuerpo}`;
+          }}
+        />
       </main>
       <Pie nombre="Andrea" />
     </>
