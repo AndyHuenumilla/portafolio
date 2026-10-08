@@ -5,7 +5,7 @@
     "descripcion": "Tienda online para usuarios en Chile, con registro de clientes, validación de RUN y carrito de compras.",
     "tecnologias": ["HTML5", "CSS", "JavaScript"],
     "imagen": "./img/proyecto-1.svg",
-    "enlace": "https://github.com/"
+    "enlace": "https://github.com/AndyHuenumilla/portafolio"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "descripcion": "Formulario web para contratar seguros de salud, incendio, escolar y auto, con validaciones.",
     "tecnologias": ["HTML5", "CSS", "JavaScript"],
     "imagen": "./img/proyecto-2.svg",
-    "enlace": "https://github.com/"
+    "enlace": "https://github.com/AndyHuenumilla/portafolio"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "descripcion": "Este mismo sitio: React, Bootstrap, datos en JSON y pruebas unitarias con Jasmine y Karma.",
     "tecnologias": ["React", "Bootstrap", "Jasmine", "Karma"],
     "imagen": "./img/proyecto-3.svg",
-    "enlace": "https://github.com/"
+    "enlace": "https://github.com/AndyHuenumilla/portafolio"
   }
 ]
